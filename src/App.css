@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.add-products{
+  border-top: 1px solid chocolate;
+}
+
+form h2, h1{
+  display: inline-block;
+  background-color: #17E361;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+form input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+form button{
+  background-color: #179645;
+  color: white;
+  padding: 5px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+ul li{
+  font-size: 1.5em;
+}
+
+ul button{
+  background-color: #E3A544;
+  color: white;
+ margin-left: 5px;
+ padding: 5px;
+ font-size: 0.7em;
+}
+
+ul button:before{
+  content: '->';
+}
